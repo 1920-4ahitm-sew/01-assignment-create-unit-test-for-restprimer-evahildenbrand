@@ -39,7 +39,7 @@ public class TimeServerResourceIT {
         String payload = response.readEntity(String.class);
         //Checks if the payload starts with the String "Time: "
         assertTrue(payload.startsWith("Time: "));
-        
+
         System.out.println("payload = " + payload);
     }
 }
