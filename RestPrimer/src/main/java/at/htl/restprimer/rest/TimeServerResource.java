@@ -9,6 +9,6 @@ public class TimeServerResource {
 
     @GET
     public String time(){
-        return "" + LocalDateTime.now();
+        return "Time: " + LocalDateTime.now();
     }
 }
