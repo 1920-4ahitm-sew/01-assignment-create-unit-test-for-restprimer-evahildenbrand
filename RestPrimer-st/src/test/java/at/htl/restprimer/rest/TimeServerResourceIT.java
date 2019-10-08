@@ -30,5 +30,6 @@ public class TimeServerResourceIT {
 
         String payload = response.readEntity(String.class);
         assertTrue(payload.startsWith("Time: "));
+        System.out.println("payload = " + payload);
     }
 }
